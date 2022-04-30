@@ -43,7 +43,6 @@ const { NotImplementedError } = require('../extensions/index.js');
 }
 
 
-console.log(getDNSStats(['code.yandex.ru', 'music.yandex.ru', 'yandex.ru']))
 
 module.exports = {
   getDNSStats

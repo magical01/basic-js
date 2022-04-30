@@ -24,7 +24,6 @@ const { NotImplementedError } = require('../extensions/index.js');
   }
 };
 
-depthCalc.calculateDepth([1, 2, 3, []])
 module.exports = {
   DepthCalculator
 };

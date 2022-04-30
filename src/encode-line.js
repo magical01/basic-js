@@ -29,7 +29,7 @@ const { NotImplementedError } = require('../extensions/index.js');
       encode += newStr[i]
     }
   }
-  return encode.replaceAll('1', '');
+  return encode.replace(/1/g, '');
 }
 
 module.exports = {
